@@ -190,6 +190,6 @@ def start():
             start()
         if int(case) == 2:
             print("Saindo...")
-            break
+            exit()
         switch(int(case))
 start()
