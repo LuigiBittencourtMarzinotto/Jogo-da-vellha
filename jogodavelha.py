@@ -107,6 +107,7 @@ def play(modo):
                     matriz[2][posicao]=valor
                 else:
                     print("Valor invalido")
+                    view()
                     play(modo)
             elif posicao>3 and posicao<=6:
                 posicao = posicao -3
@@ -120,6 +121,7 @@ def play(modo):
                     matriz[1][posicao]=valor
                 else:
                     print("Valor invalido")
+                    view()
                     play(modo)
             else:
                 posicao = posicao -6
@@ -133,6 +135,7 @@ def play(modo):
                     matriz[0][posicao]=valor
                 else:
                     print("Valor invalido")
+                    view()
                     play(modo)
             validacao()
             resultado = validacao()
